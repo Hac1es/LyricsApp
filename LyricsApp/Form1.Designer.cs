@@ -33,7 +33,7 @@
             this.getLyric = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lyricShow = new System.Windows.Forms.RichTextBox();
-            this._clearKeo = new System.Windows.Forms.Button();
+            this._clear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -86,18 +86,18 @@
             this.lyricShow.TabIndex = 0;
             this.lyricShow.Text = "";
             // 
-            // _clearKeo
+            // _clear
             // 
-            this._clearKeo.BackColor = System.Drawing.Color.Firebrick;
-            this._clearKeo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this._clearKeo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this._clearKeo.Location = new System.Drawing.Point(904, 22);
-            this._clearKeo.Name = "_clearKeo";
-            this._clearKeo.Size = new System.Drawing.Size(139, 37);
-            this._clearKeo.TabIndex = 3;
-            this._clearKeo.Text = "Xóa";
-            this._clearKeo.UseVisualStyleBackColor = false;
-            this._clearKeo.Click += new System.EventHandler(this._clearKeo_Click);
+            this._clear.BackColor = System.Drawing.Color.Firebrick;
+            this._clear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this._clear.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._clear.Location = new System.Drawing.Point(904, 22);
+            this._clear.Name = "_clear";
+            this._clear.Size = new System.Drawing.Size(139, 37);
+            this._clear.TabIndex = 3;
+            this._clear.Text = "Xóa";
+            this._clear.UseVisualStyleBackColor = false;
+            this._clear.Click += new System.EventHandler(this._clear_Click);
             // 
             // label1
             // 
@@ -139,7 +139,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this._clearKeo);
+            this.Controls.Add(this._clear);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.getLyric);
             this.Controls.Add(this.userInput);
@@ -158,7 +158,7 @@
         private System.Windows.Forms.Button getLyric;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RichTextBox lyricShow;
-        private System.Windows.Forms.Button _clearKeo;
+        private System.Windows.Forms.Button _clear;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
